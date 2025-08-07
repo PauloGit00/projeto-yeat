@@ -23,19 +23,56 @@ body {
 header{
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor03)80%);
     justify-content: center;
+    display: flex;
 }
 
 .titulo {
     font-family: var(--fonte-principal);
-    font-size: 40px;
+    font-size: 100px;
     margin: auto;
     color: white;
     text-align: center;
     white-space: nowrap;
+    margin-left: 10px;
 }
 
+@media (max-width: 1685px) {
+    .titulo {
+        font-size: 80px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1443px) {
+    .titulo {
+        font-size: 60px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1228px) {
+    .titulo {
+        font-size: 50px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1105px) {
+    .titulo {
+        font-size: 40px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 690px) {
+    .titulo {
+        font-size: 30px;
+        gap: 30px;
+    }
+}
 img{
-    
+    max-width: 100%;
+    display: block;
     padding: 10px;
 }
 
