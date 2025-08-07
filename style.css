@@ -33,7 +33,6 @@ header{
     color: white;
     text-align: center;
     white-space: nowrap;
-    margin-left: 10px;
 }
 
 @media (max-width: 1685px) {
