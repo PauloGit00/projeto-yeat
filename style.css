@@ -134,10 +134,6 @@ a:hover::after {
     content: " 🎧";
 }
 
-ol iframe {
-    margin-top: px;
-}
-
 
 footer {
     background-color: var(--cor01);
